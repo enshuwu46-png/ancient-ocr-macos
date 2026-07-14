@@ -26,7 +26,7 @@
 - 当前版本：1.0.0
 - 完整 App 约 806 MB，内含离线 OCR 运行时，不需要另装 Python
 
-可直接在仓库的 [Releases](https://github.com/enshuwu46-png/ancient-ocr-macos/releases) 页面下载 `温古茶-v1.0.0-macOS-arm64.dmg`，打开后将“温古茶.app”拖到“Applications”；也提供 ZIP 版本备用。如果 macOS 首次拦截未公证的本地签名版本，请在 Finder 中右键 App 并选择“打开”。
+可直接在仓库的 [Releases](https://github.com/enshuwu46-png/ancient-ocr-macos/releases) 页面下载 `WenGuCha-v1.0.0-macOS-arm64.dmg`，打开后将“温古茶.app”拖到“Applications”。如果 macOS 首次拦截未公证的本地签名版本，请在 Finder 中右键 App 并选择“打开”。
 
 ## 源码结构
 
