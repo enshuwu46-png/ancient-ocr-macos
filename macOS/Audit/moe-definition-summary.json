@@ -1,0 +1,11 @@
+{
+  "source": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/dict_reviseddict_download.html",
+  "source_file": "dict_revised_2015_20260625.xlsx",
+  "license": "CC BY-ND 3.0 Taiwan",
+  "characters": 3996,
+  "with_moe_definition": 3473,
+  "with_wiktionary_fallback": 13,
+  "with_chinese_definition": 3486,
+  "missing_chinese_definition": 510,
+  "transformation": "single-character row selection and line-break normalization only"
+}

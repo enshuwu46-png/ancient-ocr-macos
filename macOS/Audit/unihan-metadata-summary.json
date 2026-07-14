@@ -1,0 +1,10 @@
+{
+  "unicode_version": "17.0.0",
+  "source": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+  "characters": 3996,
+  "with_direct_variants": 1268,
+  "with_related_variants": 903,
+  "with_definitions": 3626,
+  "direct_variant_edges": 1309,
+  "related_variant_edges": 1163
+}

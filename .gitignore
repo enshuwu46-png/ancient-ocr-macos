@@ -1,0 +1,16 @@
+.DS_Store
+*.app
+*.zip
+__pycache__/
+*.pyc
+
+# 可重建的 macOS 构建产物
+macOS/build/
+macOS/Resources/ocr_runtime/
+macOS/pyinstaller-build*/
+macOS/pyinstaller-dist*/
+
+# 本地推理输出与临时下载
+outputs/
+uploads/
+*.tmp
