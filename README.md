@@ -8,6 +8,19 @@
 
 ![温古茶全部收录字页面](docs/images/catalog.jpeg)
 
+## Built with Codex + GPT-5.6
+
+**Codex, powered by GPT-5.6, was the primary engineering copilot used to turn the original Linux/AMD64 OCR submission into a complete, tested macOS application.** It was used throughout the project in the following ways:
+
+- **Repository and model analysis:** Codex inspected the original `generate_submission.py`, `run.sh`, model documentation, checkpoint metadata, and tensor input/output shapes before any large-scale changes were made. It also documented the limitations of the original Linux/AMD64 workflow on Apple Silicon.
+- **Architecture and implementation:** Codex helped design the separation between the SwiftUI interface, SQLite catalogue, search normalization, image resources, and the standalone OCR inference layer, then assisted with implementing and integrating those components.
+- **Reliable OCR integration:** Codex traced the recognizer's 4,113-class label order directly from the checkpoint, preserved the verified class-to-label mapping, and ensured that unknown `ZHFD-...` identifiers were never guessed or silently converted into Chinese characters.
+- **Search and research experience:** Codex assisted with simplified, traditional, and variant-character lookup; period-based glyph grouping; source metadata; expandable definitions; confidence-aware Top-5 OCR results; tutorials; and light/dark appearance modes.
+- **Testing and debugging:** Codex helped reproduce a macOS 26 freeze caused by repeatedly expanding very long definitions, implemented a bounded image cache and stable expansion layout, and added automated data validation, OCR smoke tests, and a 200-cycle layout stress test.
+- **Build and release engineering:** Codex assisted with Apple Silicon builds, local signing, DMG packaging, release validation, and checksums while preserving the original model files.
+
+Codex and GPT-5.6 accelerated engineering, debugging, and documentation, but they did not replace paleographic judgment. Character meanings, glyph sources, OCR labels, and uncertain recognition results remain traceable and reviewable; final product decisions and validation were performed by the project author.
+
 ## 功能
 
 - 默认打开全部收录字目录，可筛选 3,954 个可搜索字条和 6,404 张离线古文字图片。
